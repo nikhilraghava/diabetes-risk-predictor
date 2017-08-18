@@ -10,7 +10,7 @@ The diabetes-risk-predictor is a Keras based neural network that was trained usi
 6. Body mass index (weight in kg/(height in m)^2) 
 7. Diabetes pedigree function 
 8. Age (years) 
-9. Class variable (0 or 1) 
+9. Class variable (0 - non-diabetic or 1 - diabetic) 
 
 Download the dataset as a *csv* file into your working directory, you can also use the dataset in this repository as it is already in the *csv* format. The config file contains the configuration files that have the weights in a *h5* file format and the neural network model itself has been converted to a *JSON* file format to enable faster execution without having to train the model. Running the trained model should give you an accuracy of 99.4%, which is acceptable but not really that great. If you wish to achieve a higher accuracy you can do two things,
 
