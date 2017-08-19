@@ -1,6 +1,4 @@
-# diabetes-risk-predictor 
-
-Status: ![Travis Build](https://img.shields.io/travis/nikhilraghava/diabetes-risk-predictor.svg)
+# diabetes-risk-predictor ![Travis Build](https://img.shields.io/travis/nikhilraghava/diabetes-risk-predictor.svg)
 
 The diabetes-risk-predictor is a Keras based neural network that was trained using the Pima Indians diabetes data set. The original owners of this dataset are the National Institute of Diabetes and Digestive and Kidney Diseases (United States). The data set was obtained from the [UCI machine learning datasets database](https://archive.ics.uci.edu/ml/datasets/pima+indians+diabetes). The contents of the dataset are as follows (list indicies match the column number).
 
