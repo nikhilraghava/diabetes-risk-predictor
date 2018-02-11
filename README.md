@@ -12,11 +12,11 @@ The diabetes-risk-predictor is a Keras based neural network that was trained usi
 8. Age (years) 
 9. Class variable (0 - non-diabetic or 1 - diabetic) 
 
-Download the dataset as a *csv* file into your working directory, you can also use the dataset in this repository as it is already in the *csv* format. The config file contains the configuration files that have the weights in a *h5* file format and the neural network model itself has been converted to a *JSON* file format to enable faster execution without having to train the model. Running the trained model should give you an accuracy of 99.4%, which is acceptable but not really that great. If you wish to achieve a higher accuracy you can do two things,
+Download the dataset as a *csv* file into your working directory, you can also use the dataset in this repository as it is already in the *csv* format. The config file contains the configuration files that have the weights in a *h5* file format and the neural network model itself has been converted to a *JSON* file format to enable faster execution without having to train the model. Running the trained model should give you an accuracy of 99.4%. If you wish to achieve a higher accuracy you can do two things:
 
 + Play around with the hidden layers
 + Train the neural network for a longer period of time (adjust the epochs)
 
-Doing the above will certainly help you achieve a higher accuracy over time but the accuracies do change as the neural network is trained. The graph below shows the changes in accuracy levels as the neural network are being trained (you can obtain the graph below by running the *visualizer.py* file). The accuracy levels change because the weights are constantly being updated as the neural network is trained.
+Doing the above will certainly help you achieve a higher accuracy over time but the accuracies do change as the neural network is trained (because of progressive random changes of the weights). The graph below shows the changes in accuracy levels as the neural network are being trained (you can obtain the graph below by running the *visualizer.py* file). The accuracy levels change because the weights are constantly being updated as the neural network is trained.
 
 ![Accuracy Graph](https://cldup.com/THXXlEV_nB.png)
